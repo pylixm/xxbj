@@ -1,2 +1,3 @@
 # xxbj
-Learning English notes ~
+
+个人英语学习阅读笔记。
