@@ -5,7 +5,7 @@ echo '\033[31m >>>>>>> 开始生成新的html文件 \033[0m'
 hugo 
 echo '\033[31m >>>>>>> 生成完成 \033[0m'
 echo '\033[31m >>>>>>> 开始提交静态文件 \033[0m'
-rm -rf ./docs
+rm -rf ./docs/*
 cp -r ./public/* ./docs/
 cd deploy
 git add .
