@@ -7,7 +7,7 @@ echo '\033[31m >>>>>>> 生成完成 \033[0m'
 echo '\033[31m >>>>>>> 开始提交静态文件 \033[0m'
 rm -rf ./docs/*
 cp -r ./public/* ./docs/
-cd deploy
+cd docs
 git add .
 git commit -am $1
 git push 
